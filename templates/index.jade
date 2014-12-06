@@ -1,0 +1,137 @@
+doctype html
+html
+  include ./includes/head.jade
+  //mixins
+  include ./mixins/list
+  include ./mixins/feature-blocks
+  body
+    // Header
+    section#header.dark
+      header
+        h1 Welcome to ohmage
+        p An open participatory sensing platform
+      footer
+        a.button.scrolly(href='#meta') Get Started
+
+    // Meta
+    section#meta.main
+      header
+        .container
+          h2 ohmage is end-to-end.
+          p
+            | ohmage is a platform built from the ground up to be used for participatory sensing (users contributing data to projects
+            | that benefit themselves, their community, or research). Select your role below to get participating!
+      .content.dark.style1.featured
+        .container
+          .row
+            +feature-icon("#participant", "Participant", "fa-users")
+              | Collect data for yourself or your community by participating in
+              | existing projects. Visualize your data and others' to discover something
+              | new!
+            +feature-icon("#coordinator", "Coordinator", "fa-pencil-square-o")
+              | Create your own project and deploy it using our expressive
+              | authoring design.
+            +feature-icon("#developer", "Administrator/Developer", "fa-cogs")
+              | Get started running your own ohmage server, or create your own web
+              | client for interacting with ohmage data in new and interesting ways!
+
+    // Participant
+    section#participant.main
+      header
+        .container
+          h2 Join as a participant.
+          p
+            | Once you've created an account on our sandbox, you can download our app and start collecting some data! Your study coordinator
+            | may suggest you download an alternative version, or select a different server. If you'd really like us to guide you, walk through
+            | our 
+            a(href='http://demo.ohmage.org/flows/default/', target='_blank') step-by-step
+            | .
+      .content.dark.style3
+        .container
+          .row
+            .4u
+              +feature-no-icon("https://play.ohmage.org/web/#register", "Create an Account")
+                | Create an account on our open sandbox, 
+                a(href='https://play.ohmage.org/web/#register', target='_blank') play.ohmage.org
+                | , then install the app on android or iOS (ohmage MWF)!
+            |                        
+            .8u
+              .row
+                .2u
+                +feature-icon2-no-content("https://play.google.com/store/apps/details?id=org.ohmage.app", "Android", "fa-android")                                 
+                .2u
+                +feature-icon2-no-content("https://itunes.apple.com/us/app/ohmage-mwf/id578211681?mt=8https://apple.comign-mpt=uo%3D4", "iOS", "fa-apple")                                    
+    // Coordinator
+    section#coordinator.main
+      header
+        .container
+          h2 Project Coordinator/Researcher
+          p
+            | Creating and testing your project can be done using the provided authoring tool on our sandbox. If you'd like to deploy a larger study
+            | feel free to 
+            a(href='#contact') contact us
+            | to see where you project is best fit! If you're still in the early planning stages, feel free to peruse the list of
+            | publications by ohmage contributors and recent/current studies using ohmage.
+      .content.dark.style2.featured
+        .container
+          .row
+            .4u
+              +feature-icon2("https://play.ohmage.org/authoring/", "Project Authoring", "fa-pencil")
+                | Use our authoring tool to easily create a project. Further information 
+                | on project capabilities can be found 
+                a(href='https://github.com/ohmage/server/wiki/Campaign-Definition', target='_blank') here
+                | .
+            .4u
+              +feature-icon2("#studies", "Current Studies", "fa-list")
+                | Recent studies are wide-ranging in subject matter and are made up of collaborators from
+                | UCLA, OpenMHealth, VA, UCSF and others. 
+                a.scrolly(href='#studies') See our full list below!
+            .4u
+              +feature-icon2("#pub", "Publications", "fa-file")
+                | ohmage has been the subject of (and the tool used for research) in a number of papers.
+                a.scrolly(href='#pub') Click here to view our full list of publications below!
+    // Developer
+    section#developer.main
+      header
+        .container
+          h2 Administrator/Developer
+      .content.dark.style2
+        .container
+          .row
+            .4u
+              section
+                h3 ohmage for administrators and developers
+                p
+                  | If you'd like to start running an ohmage server (ohmage 2.16 works well on linux
+                  | with java, tomcat7 and mariadb), add features or just peruse our code base you can
+                  | find the links to the right. We'd love for you to 
+                  a.scrolly(href='#contact') contact us
+                  |  with comments/questions
+                  | and to let us know how we can help get you up and running!
+            .8u
+              .row.no-collapse
+                .6u
+                  a.scrolly.image.fit(href='#functionality')
+                    img(src='assets/images/clients.jpg', alt='')
+                .6u
+                  a.image.fit(href='https://github.com/ohmage')
+                    img(src='assets/images/contribute.jpg', alt='')
+              .row.no-collapse
+                .6u
+                  a.image.fit(href='https://github.com/ohmage/server')
+                    img(src='assets/images/install.jpg', alt='')
+                .6u
+                  a.image.fit(href='#')
+                    img(src='assets/images/cookbook.jpg', alt='')
+
+    // Studies
+    +list("studies", "Current and Recent Studies", "studies.json")
+
+    // Papers 
+    +list("pub", "Papers/Publications", "papers.json")
+
+    // functionality
+    +list("functionality", "Pluggable Client Functionality", "functionality.json")
+
+include ./includes/contact_form.jade
+include ./includes/footer.jade

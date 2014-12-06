@@ -1,0 +1,25 @@
+section#contact.main
+  header
+    .container
+      h2 Contact Us!
+      p
+        | We'd love to hear your questions, comments and information about how you are using ohmage.
+        | Please drop us a note and we'll contact you back as soon as we can!
+  .content.style4.featured
+    .container(class='75%')
+      form(method='post', action='#')
+        .row(class='50%')
+          .6u
+            input(type='text', placeholder='Name')
+          .6u
+            input(type='text', placeholder='Email')
+        .row(class='50%')
+          .12u
+            textarea(name='message', placeholder='Message')
+        .row
+          .12u
+            ul.actions
+              li
+                input.button(type='submit', value='Send Message')
+              li
+                input.button.alt(type='reset', value='Clear Form')

@@ -1,0 +1,40 @@
+{
+	"subtitle":"Because of it's well-defined API structure, the ohmage ecosystem contains many 'single-purpose' clients that have been contributed by the ohmage community. As an administrator you are welcome to include or exclude any of these pieces in your installation as needed.  If you'd like to see each in action, please visit the sandbox (which includes each client listed below!)",
+	"items":[
+    	{
+    		"title":"Survey Taking", 
+    		"url":"https://lausd.mobilizingcs.org/survey", 
+    		"details":"Browser-based data collection tool. Mimics the functionality of the mobile app in the browser for those without Android or iOS devices"
+    	},
+    	{
+    		"title":"Data Exploration: Campaign Monitoring",
+    		"url":"https://lausd.mobilizingcs.org/survey",
+    		"details":"Campaign progress tracking tool. Helps project coordinators track the data collection of their participants"
+    	},
+    	{
+    		"title":"Data Exploration: Interactive Dashboard",
+    		"url":"https://lausd.mobilizingcs.org/dashboard",
+    		"details":"An interactive dashboard which incorporates the overview first; zoom and filter; details on-demand design pattern."
+    	},
+    	{
+    		"title":"Data Exploration: Plot App",
+    		"url":"https://lausd.mobilizingcs.org/plotapp",
+    		"details":"R-based data exploration. Allows for complex data analysis without requiring technical expertise. Requires opencpu."
+    	},
+    	{
+    		"title":"Management: Class Setup",
+    		"url":"https://lausd.mobilizingcs.org/teacher",
+    		"details":"Class creation tool. Catered toward the Mobilize/LAUSD use-case, but enables easy class creation for all."
+    	},
+    	{
+    		"title":"Management: Campaign Authoring",
+    		"url":"https://lausd.mobilizingcs.org/authoring",
+    		"details":"Interactive campaign creation. Allows project coordinators to quickly define campaigns, which as the container for surveys, are the cornerstone of the ohmage system."
+    	},
+    	{
+    		"title":"Management: GWT Web frontend",
+    		"url":"https://lausd.mobilizingcs.org/web",
+    		"details":"The classic ohmage 2.x frontend. Provides the ability for users to view history of responses as well as lists of classes and campaigns to which they belong. Additionally contains some admin features for those with the admin role."
+    	}
+    ]
+}

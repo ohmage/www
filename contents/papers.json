@@ -1,0 +1,107 @@
+{
+	"items":[
+    	{
+    		"title":"ohmage: a General and Extensible End-to-End Participatory Sensing Platform", 
+    		"authors":"H. Tangmunarunkit, C.K. Hsieh, F. Alquaddoomi, J. Jenkins, J. Kang, C. Ketcham, Z. Khalapyan, B. Longstaff, S. Nolen, J. Ooms, J. Selsky, N. Ramanathan, D. Estrin", 
+    		"url":"http://web.ohmage.org/~hongsudt/pub/ohmage_ucla_140015.pdf", 
+    		"details":"In submission to ACM Transactions on Intelligent Systems and Technology, July-2014. UCLA CS Technical Report 140015."
+    	},
+     	{
+    		"title":"ohmage: An Open Mobile System for Activity and Experience Sampling", 
+    		"authors":"Nithya Ramanathan, Faisal Alquaddoomi, Hossein Falaki, Dony George, Cheng-Kang Hsieh, John Jenkins, Cameron Ketcham, Brent Longstaff, Jeroen Ooms, Joshua Selsky, Hongsuda Tangmunarunkit, Deborah Estrin", 
+    		"url":"http://ohmage.org/static/ohmagehome/papers/ohmage-ieee-6th.pdf", 
+    		"details":"In Proceedings of the 6th International Conference on Pervasive Computing Technologies for Healthcare. May 21-24th, 2012."
+    	},
+     	{
+    		"title":"ohmage: An Open Mobile System for Activity and Experience Sampling", 
+    		"authors":"John Hicks, Nithya Ramanathan, Hossein Falaki, Brent Longstaff, Kannan Parameswaran, Mohamad Monibi, Donnie H. Kim, Joshua Selsky, John Jenkins, Hongsuda Tangmunarunkit, Deborah Estrin", 
+    		"url":"http://research.cens.ucla.edu/people/estrin/resources/techreports/2011-acm-tecs-ohmage.pdf", 
+    		"details":"Center for Embedded Networked Sensing, Technical Report #100. November 3, 2011"
+    	},
+     	{
+    		"title":"Open mHealth Architecture: An Engine for Health Care Innovation", 
+    		"authors":"Estrin, D., Sim, I.", 
+    		"url":"http://www.sciencemag.org/cgi/content/full/330/6005/759", 
+    		"details":"Science Magazine, AAAS, vol. 330, no. 6005, pp. 759-760, November 5, 2010"
+    	},
+     	{
+    		"title":"Patients’ Preferences for Mobile Health Applications in HIV and Cardiovascular Disease", 
+    		"authors":"Ramanathan, N., et al", 
+    		"details":"in review (technical report preprint available upon request)"
+    	},
+     	{
+    		"title":"Employing User Feedback for Semantic Location Services", 
+    		"authors":"Kim, D., et al", 
+    		"url":"http://www.cs.ucla.edu/~dhjkim/files/pdf/ubicomp11_kim.pdf", 
+    		"details":"Proceedings of the 13th International Conference on Ubiquitous Computing (Ubicomp’11), Beijing, China, September 2011"
+    	},
+     	{
+    		"title":"SystemSens: A Tool for Monitoring Usage in Smartphone Research Deployments", 
+    		"authors":"Falaki, H., et al", 
+    		"url":"http://cs.ucla.edu/~falaki/pub/SystemSens.pdf", 
+    		"details":"In Proceedings of the 6th ACM International Workshop on Mobility in the Evolving Architecture (ACM MobiArch 2011), Washington D.C., June 28, 2011"
+    	},
+     	{
+    		"title":"Personal Data Vaults: A Locus of Control for Personal Data Streams", 
+    		"authors":"M. Mun, et al", 
+    		"url":"http://research.cens.ucla.edu/people/estrin/resources/conferences/2010-mun-data-vaults.pdf", 
+    		"details":"In Proceedings of The 6rd International Conference on emerging Networking EXperiments and Technologies (CoNEXT) 2010, Philadelphia, PA, November 30, 2010"
+    	},
+     	{
+    		"title":"A First Look at Traffic on Smartphones", 
+    		"authors":"Falaki, H., et al", 
+    		"url":"http://cs.ucla.edu/~falaki/pub/imc153s-falaki.pdf", 
+    		"details":"In Proceedings of the Internet Measurement Conference (IMC), Melbourne, Australia, November 2010"
+    	},
+     	{
+    		"title":"SensLoc: Sensing Everyday Places and Paths Using Less Energy", 
+    		"authors":"Donnie H. Kim, et al", 
+    		"url":"http://www.cs.ucla.edu/~dhjkim/files/pdf/sensys10_kim.pdf", 
+    		"details":"In Proceedings of 8th ACM Conference on Embedded Networked Sensor Systems (SenSys 2010), Zurich, Switzerland, November 3-5, 2010"
+    	},
+     	{
+    		"title":"AndWellness: An Open Mobile System for Activity and Experience Sampling", 
+    		"authors":"Hicks, J., et al", 
+    		"url":"http://research.cens.ucla.edu/people/estrin/resources/conferences/2010-oct-wireless-health.pdf", 
+    		"details":"In proceedings of Wireless Health 2010: Academic and Research Conference, La Jolla, CA, October 5-7, 2010"
+    	},
+     	{
+    		"title":"Diversity in Smartphone Usage", 
+    		"authors":"Falaki, H., et al", 
+    		"details":"In Proceedings of 8th Annual International Conference on Mobile Systems, Applications and Services (MobiSys), June 2010"
+    	},
+     	{
+    		"title":"Identifying Preferences for Mobile Health Applications Self-Monitoring and Self-Management: Focus Group Findings from HIV-Positive Persons and Young Mothers", 
+    		"authors":"Ramanathan, N., Swendeman, D., Comulada, S., Estrin, D., Rotheram-Borus, M.J.", 
+    		"url":"http://www.ncbi.nlm.nih.gov/pubmed?term=22704234", 
+    		"details":"Int J Med Inform. 2012 Jun 13; PMID: 22704234"
+    	},
+     	{
+    		"title":"South Asia Women’s Perspectives on Mobile Phone Usage and Functionality to Increase Physical Activity", 
+    		"authors":"Khurana, N., Hasnain Wynia, R., Ramanathan, N., Kandula, N.", 
+    		"details":"2012 UIC Minority Health in the Midwest Conference, February 4, 2012. (Oral Presentation.)"
+    	},
+     	{
+    		"title":"Identifying Preferences for Mobile Health Applications Self-Monitoring and Self-Management: Focus Group Findings from HIV-Positive Persons and Young Mothers", 
+    		"authors":"Ooms, J., Ramanathan, N., Swendeman, D., Comulada, S., Dawson, B., Rotheram-Borus, MJ., Estrin, D.", 
+    		"details":"Medicine 2.0 2012, Boston, MA. (Oral Presentation.)"
+    	},
+     	{
+    		"title":"Measures and Real-Time Feedback of Diet, Activity, and Stress Using GPS and Accelerometer Enabled Smartphones", 
+    		"authors":"Tangmunarunkit, H., Ramanathan, N., Falaki, H., Jenkins, J., Ketcham, C., Longstaff, B., Monibi, M., Ooms, J., Parameswaran, K., Selsky, J., Estrin, D.", 
+    		"details":"Medicine 2.0 2012, Boston, MA (Oral Presentation.)"
+    	},
+     	{
+    		"title":"Ambulation: A Tool for Monitoring Mobility Patterns over Time Using Mobile Phones", 
+    		"authors":"Ryder, J.; Longstaff, B.; Reddy, S.; Estrin, D.", 
+    		"url":"http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5283030", 
+    		"details":"Computational Science and Engineering, 2009. CSE '09. International Conference on"
+    	},
+      	{
+    		"title":"Improving activity classification for health applications on mobile devices using active and semi-supervised learning", 
+    		"authors":"Longstaff, B.; Reddy, S.; Estrin, D.", 
+    		"url":"http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5482296", 
+    		"details":"Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2010 4th International Conference on"
+    	}
+	]
+}
