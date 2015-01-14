@@ -1,0 +1,17 @@
+mixin list(name, title, data)
+  section(id="#{name}" class="main")
+    h2= title
+    if contents[data].metadata.subtitle
+      p= contents[data].metadata.subtitle
+    ul
+      each item in contents[data].metadata.items
+        li
+          if item.url
+            a(href= item.url)
+              h4= item.title
+          else
+            h4= item.title
+          ul
+            if item.authors
+              li(style="font-style:italic")= item.authors
+            li= item.details
