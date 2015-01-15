@@ -1,48 +1,50 @@
 doctype html
 html(lang="en")
- head
+ include ./includes/head.jade
  body
   include ./includes/navbar.jade
-
-  h1 ohmage
-  p participate. visualize.
-
-  section#meta
-    h2 ohmage is an open data collection platform for research
-    ul
-     li 
-        h4 define questions
-        | Quickly create sets of surveys to ask your participants. The ohmage platform was built for mobile collection 
-        | so it supports simple responses as well as responses with images, video and audio.  Surveys can even be completed 
-        | while your participants are offline and uploaded later!
-     li 
-        h4 create your group
-        | Use our provided tool to create accounts for your participants, so they don't even need to take a moment to create 
-        | their own! This tool can help you dynamically add and remove participants from your study as well!
-     li
-        h4 group participates
-        | Now that your surveys have launched, your participants can easily view/take your surveys on their android or apple 
-        | device. You can even take a moment and view their collection as they progress!
-     li
-        h4 visualize data
-        | During data collection, or after collection is finished you (and your participants) can visualize and analyze the 
-        | collected data.  ohmage provides tools for all levels of statistical prowess, so analysis can be done quickly no 
-        | matter your experience level!
-
-    p 
-      | If you're ready to get started, create an account on the free sandbox provided by our partners at Mobilize. Browse around 
-      | and even participate in existing example projects to see how easy it is!
-
-    h3 ohmage is tried and true!
-    p
-      | Research grants and projects have used ohmage in all different capacities.  Take a look at some current and past studies, 
-      | as well as publications that involve the use of ohmage as a research tool!
-
-    h3 ohmage is open source!
-    ul
-        li 
-            | would you like to host the ohmage platform at your own school or business for your study?  Take a look at our page 
-            | on setting up the ohmage platform.
-        li
-            | see something that's missing? developers of all experience levels can contribute/add features to the ohmage platform. 
-            | Take a look at the contribute page for more information!
+  .container-fluid
+    h1 ohmage
+    p participate. visualize.
+  
+    section#meta
+      h2 an open data collection platform for
+      ul
+       li 
+          h4 creating questions
+          | Quickly create sets of surveys to ask your participants. The ohmage platform was built for mobile collection 
+          | so it supports simple responses as well as responses with images, video and audio.  Surveys can even be completed 
+          | while your participants are offline and uploaded later!
+       li 
+          h4 defining your userbase
+          | Use our provided tool to create accounts for your participants, so they don't even need to take a moment to create 
+          | their own! This tool can help you dynamically add and remove participants from your study as well!
+       li
+          h4 collecting data
+          | Now that your surveys have launched, your participants can easily view/take your surveys on their android or apple 
+          | device. You can even take a moment and view their collection as they progress!
+       li
+          h4 visualizing/analyzing data
+          | During data collection, or after collection is finished you (and your participants) can visualize and analyze the 
+          | collected data.  ohmage provides tools for all levels of statistical prowess, so analysis can be done quickly no 
+          | matter your experience level!
+  
+      p 
+        | If you're ready to get started, create an account on the free sandbox provided by our partners at Mobilize. Browse around 
+        | and even participate in existing example projects to see how easy it is!
+  
+      h3 ohmage is tried and true!
+      p
+        | Research grants and projects have used ohmage in all different capacities.  Take a look at some current and past studies, 
+        | as well as publications that involve the use of ohmage as a research tool!
+  
+      h3 ohmage is open source!
+      ul
+          li 
+              | would you like to host the ohmage platform at your own school or business for your study?  Take a look at our page 
+              | on setting up the ohmage platform.
+          li
+              | see something that's missing? developers of all experience levels can contribute/add features to the ohmage platform. 
+              | Take a look at the contribute page for more information!
+  
+              zfs set mountpoint=/export/vm tank/vm  
