@@ -1,44 +1,56 @@
 doctype html
 html(lang="en")
  include ./includes/head.jade
- body
+ include ./mixins/tab.jade
+ body(data-spy="scroll", data-target="navbar")
   include ./includes/navbar.jade
-  .container-fluid
-    h1 ohmage
-    p participate. visualize.
+  .container
+    .jumbotron
+     h1 ohmage
+     p.lead participate. visualize.
   
     section#meta
       h2 an open data collection platform for
-      ul
-       li 
-          h4 creating questions
+      .row
+        .col-lg-3
+          i.fa.fa-pencil.fa-5x(data-toggle="tab", href="#tab-questions")
+          h4.text-center creating questions
+        .col-lg-3
+          i.fa.fa-group.fa-5x(data-toggle="tab", href="#tab-userbase")
+          h4.text-center defining your userbase
+        .col-lg-3
+          i.fa.fa-mobile.fa-5x(data-toggle="tab", href="#tab-collection")
+          h4.text-center collecting data
+        .col-lg-3
+          i.fa.fa-bar-chart.fa-5x(data-toggle="tab", href="#tab-data")
+          h4.text-center visualizing/analyzing data
+
+      .tab-content
+        +tab-pane('questions')
           | Quickly create sets of surveys to ask your participants. The ohmage platform was built for mobile collection 
           | so it supports simple responses as well as responses with images, video and audio.  Surveys can even be completed 
           | while your participants are offline and uploaded later!
-       li 
-          h4 defining your userbase
+        +tab-pane('userbase')
           | Use our provided tool to create accounts for your participants, so they don't even need to take a moment to create 
           | their own! This tool can help you dynamically add and remove participants from your study as well!
-       li
-          h4 collecting data
+        +tab-pane('collection')
           | Now that your surveys have launched, your participants can easily view/take your surveys on their android or apple 
           | device. You can even take a moment and view their collection as they progress!
-       li
-          h4 visualizing/analyzing data
+        +tab-pane('data')
           | During data collection, or after collection is finished you (and your participants) can visualize and analyze the 
           | collected data.  ohmage provides tools for all levels of statistical prowess, so analysis can be done quickly no 
           | matter your experience level!
-  
-      p 
+      br 
+      h4 
         | If you're ready to get started, create an account on the free sandbox provided by our partners at Mobilize. Browse around 
         | and even participate in existing example projects to see how easy it is!
   
-      h3 ohmage is tried and true!
+      h3#admin ohmage is tried and true!
       p
         | Research grants and projects have used ohmage in all different capacities.  Take a look at some current and past studies, 
         | as well as publications that involve the use of ohmage as a research tool!
   
-      h3 ohmage is open source!
+      h3#dev ohmage is open source!
       ul
           li 
               | would you like to host the ohmage platform at your own school or business for your study?  Take a look at our page 
@@ -46,5 +58,3 @@ html(lang="en")
           li
               | see something that's missing? developers of all experience levels can contribute/add features to the ohmage platform. 
               | Take a look at the contribute page for more information!
-  
-              zfs set mountpoint=/export/vm tank/vm  
