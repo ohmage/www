@@ -6,7 +6,7 @@ Licensed under MIT
 
 /* Tabs panel */
 .tabbable-panel {
-  border:1px solid #eee;
+  /*border:1px solid #eee;*/
   padding: 10px;
 }
 
@@ -14,9 +14,18 @@ Licensed under MIT
 .tabbable-line > .nav-tabs {
   border: none;
   margin: 0px;
+  /*added by steve*/
+  display: table;
+  table-layout: auto;
+  float: none;
+  width: 100%;
 }
 .tabbable-line > .nav-tabs > li {
   margin-right: 2px;
+  /*added by steve*/
+  display: table-cell;
+  float: none;
+  text-align: center;
 }
 .tabbable-line > .nav-tabs > li > a {
   border: 0;
@@ -28,6 +37,7 @@ Licensed under MIT
 }
 .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
   border-bottom: 4px solid #fbcdcf;
+  border: 0;
 }
 .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
   border: 0;
@@ -60,28 +70,4 @@ Licensed under MIT
 }
 .portlet .tabbable-line > .tab-content {
   padding-bottom: 0;
-}
-
-/* Below tabs mode */
-
-.tabbable-line.tabs-below > .nav-tabs > li {
-  border-top: 4px solid transparent;
-}
-.tabbable-line.tabs-below > .nav-tabs > li > a {
-  margin-top: 0;
-}
-.tabbable-line.tabs-below > .nav-tabs > li:hover {
-  border-bottom: 0;
-  border-top: 4px solid #fbcdcf;
-}
-.tabbable-line.tabs-below > .nav-tabs > li.active {
-  margin-bottom: -2px;
-  border-bottom: 0;
-  border-top: 4px solid #f3565d;
-}
-.tabbable-line.tabs-below > .tab-content {
-  margin-top: -10px;
-  border-top: 0;
-  border-bottom: 1px solid #eee;
-  padding-bottom: 15px;
 }
