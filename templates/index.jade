@@ -16,22 +16,21 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
           br
           br
           br
-          //a.btn.btn-default.page-scroll(href='#about') Click Me to Scroll Down!
       .row
         .col-md-3
-          a.page-scroll(href="#questions")
+          a.page-scroll(href="#questions" data-target="#questions")
            i.fa.fa-pencil.fa-5x.green
           h4.text-center creating questions
         .col-md-3
-          a.page-scroll(href="#participants")
+          a.page-scroll(href="#participants" data-target="#participants")
            i.fa.fa-group.fa-5x.blue
           h4.text-center getting participants
         .col-md-3
-          a.page-scroll(href="#collect")
+          a.page-scroll(href="#collect" data-target="#collect")
            i.fa.fa-mobile.fa-5x.orange
           h4.text-center collecting data
         .col-md-3
-          a.page-scroll(href="#data")
+          a.page-scroll(href="#data" data-target="#data")
            i.fa.fa-bar-chart.fa-5x.red
           h4.text-center visualizing/analyzing data
 

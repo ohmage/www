@@ -7,7 +7,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
         span.icon-bar                
         span.icon-bar   
         span.icon-bar
-      a.navbar-brand.page-scroll(href='#page-top') ohmage
+      a.navbar-brand.page-scroll(href='/' data-target="#page-top") ohmage
     // Collect the nav links, forms, and other content for toggling
     .collapse.navbar-collapse.navbar-ex1-collapse
       ul.nav.navbar-nav
@@ -16,25 +16,34 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
           a.page-scroll(href='#page-top')               
         li.dropdown
           a.dropdown-toggle(data-toggle="dropdown" role="button" aria-expanded="false") Overview
+           span.caret
           ul.dropdown-menu(role="menu")
             li
-              a.page-scroll(href='#questions') Create Survey
+              a.page-scroll(href='/index.html#questions' data-target='#questions') Create Survey
             li
-              a.page-scroll(href='#participants') Get Participants
+              a.page-scroll(href='/index.html#participants' data-target='#participants') Get Participants
             li
-              a.page-scroll(href='#collect') Collect Data
+              a.page-scroll(href='/index.html#collect' data-target='#collect') Collect Data
             li
-              a.page-scroll(href='#data') Visualize Data
-        li
-          a(href="/research.html") Research
+              a.page-scroll(href='/index.html#data' data-target='#data') Visualize Data
+        li.dropdown
+          a.dropdown-toggle(data-toggle="dropdown" role="button" aria-expanded="false") Research
+           span.caret
+          ul.dropdown-menu(role="menu")
+            li
+              a.page-scroll(href='/research.html#studies' data-target='#studies') Studies
+            li
+              a.page-scroll(href='/research.html#publications' data-target='#publications') Publications
         li
           a(href="/admin.html") Self-Host
+        li
+          a(href="/dev.html") Develop
 
 
       ul.nav.navbar-nav.navbar-right
         li
-          a.page-scroll(href="#started") Create account
+          a.page-scroll(href="/index.html#started" data-target='#started') Create account
         li
-          a.page-scroll(href='#contact') Contact Us
+          a.page-scroll(href='/index.html#contact' data-target='#contact') Contact Us
     // /.navbar-collapse
   // /.container

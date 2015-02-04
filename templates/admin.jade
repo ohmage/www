@@ -1,0 +1,41 @@
+doctype html(lang='en')
+head
+include ./includes/head.jade
+include ./mixins/list.jade
+
+body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
+  include ./includes/navbar.jade
+
+  // Admin Section
+  section#admin.overview-section
+    .container
+      .row
+        .col-lg-12
+          h1 Administration/Self-Host
+      .row
+        .col-lg-12(style="text-align:left;")
+          p.lead
+            | If you're looking to self host an ohmage server, look no further! While our partners 
+            | on the Mobilize project have been nice enough to offer a free sandbox server for use, 
+            | if you project plans are lofty or you'd just like the stability of hosting ohmage on 
+            | your own you can get it up and running in minutes on a linux server in your datacenter 
+            | or in the cloud!
+          p
+            | ohmage needs only java, tomcat and mysql to work! We've done the majority of our testing/support 
+            | on Ubuntu LTS releases (12.04 and 14.04) though, so you may want to start there.  If you'd like 
+            | the 'express' version, we support a chef cookbook for ohmage on the supermarket! If you're really 
+            | ready to go it alone, check out the quickstart steps below:
+          ol
+            li install java, tomcat and mysql
+            li download/compile the ohmage server project
+            li copy the resulting war file to tomcat's webapp directory
+            li run the db prep scripts from the `db` directory in the ohmage server source
+            li create a simple /etc/ohmage.conf file with this db information
+            li restart tomcat
+          p
+            | Now, it's likely you'll want to add some/all of the frontend clients you've seen on display above.  
+            | Take a look at the projects to see if they need to be compiled and start serving the static pages 
+            | with your favorite web server (we really like nginx, for obvious reasons)! Note that these projects 
+            | may expect ohmage to be running at /app.
+
+include ./includes/foot.jade

@@ -3,11 +3,11 @@ head
 include ./includes/head.jade
 include ./mixins/list.jade
 
-body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
+body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
   include ./includes/navbar.jade
 
   // Studies Section
-  section#studies.overview-section
+  section#studies.studies-section
     .container
       .row
         .col-lg-12
@@ -20,18 +20,18 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
        .col-lg-12(style="text-align:left;")
         +list("studies.json")
   
-  // 
-  //section#papers.overview-section
-  //  .container
-  //    .row
-  //      .col-lg-12
-  //        h1 Research Publications
-  //    .row
-  //      .col-lg-12
-  //        p.lead
-  //         | Here is a list of publications that are about the ohmage suite itself, or that used ohmage as a research tool.
-  //    .row
-  //     .col-lg-12(style="text-align:left;")
-  //      +list("papers.json")
+   
+  section#publications.studies-section
+    .container
+      .row
+        .col-lg-12
+          h1 Research Publications
+      .row
+        .col-lg-12
+          p.lead
+           | Here is a list of publications that are about the ohmage suite itself, or that used ohmage as a research tool.
+      .row
+       .col-lg-12(style="text-align:left;")
+        +list("papers.json")
 
 include ./includes/foot.jade
