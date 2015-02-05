@@ -1,0 +1,43 @@
+{
+	"items":[
+    	{
+    		"title":"ohmage-mwf", 
+    		"url":"https://mobilizelabs.org", 
+    		"details":"HTML5 and javascript-based data collection tool which is built for iOS and Android with phonegap, but can also be run from a browser.",
+            "tags": ["html5", "javascript", "jquery", "phonegap", "android", "iOS", "browser"]
+    	},
+    	{
+    		"title":"Campaign Monitor",
+    		"url":"https://github.com/mobilizingcs/campaign_monitor",
+    		"details":"Campaign progress tracking tool written with HTML5, javascript and dc.js/d3. Helps project coordinators track the data collection of their participants",
+            "tags": ["html5", "javascript", "jquery", "d3.js", "dc.js", "viz", "browser"]
+    	},
+    	{
+    		"title":"Interactive Dashboard",
+    		"url":"https://github.com/mobilizingcs/dashboard",
+    		"details":"An interactive dashboard written in HTML5, javascript and dc.js/d3 which incorporates the overview first; zoom and filter; details on-demand design pattern.",
+            "tags": ["html5", "javascript", "jquery", "d3.js", "dc.js", "viz", "browser"]
+    	},
+    	{
+    		"title":"Plot App",
+    		"url":"https://github.com/mobilizingcs/plotbuilder",
+    		"details":"R-based data exploration tool written in HTML5, javascript and uses the opencpu server for data processing. Allows for complex data analysis without requiring technical expertise. Requires opencpu.",
+            "tags": ["html5", "javascript", "jquery", "opencpu", "viz", "browser"]
+    	},
+    	{
+    		"title":"Management: Class Setup",
+    		"url":"https://lausd.mobilizingcs.org/teacher",
+    		"details":"Class creation tool. Catered toward the Mobilize/LAUSD use-case, but enables easy class creation for all."
+    	},
+    	{
+    		"title":"Management: Campaign Authoring",
+    		"url":"https://lausd.mobilizingcs.org/authoring",
+    		"details":"Interactive campaign creation. Allows project coordinators to quickly define campaigns, which as the container for surveys, are the cornerstone of the ohmage system."
+    	},
+    	{
+    		"title":"Management: GWT Web frontend",
+    		"url":"https://lausd.mobilizingcs.org/web",
+    		"details":"The classic ohmage 2.x frontend. Provides the ability for users to view history of responses as well as lists of classes and campaigns to which they belong. Additionally contains some admin features for those with the admin role."
+    	}
+    ]
+}
