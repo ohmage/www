@@ -1,43 +1,77 @@
 {
 	"items":[
+        {
+            "title":"Server Core",
+            "github":"https://github.com/ohmage/server",
+            "image":"/img/dev/server.png",
+            "sandbox":"https://edu.ohmage.org/app/EasyPost.html",
+            "details":"JavaEE-based web application which offers the ohmage 2.x API platform",
+            "tags": ["java", "server"]
+        },
+        {
+            "title":"Native Android app",
+            "github":"https://github.com/ohmage/android-lib",
+            "image":"/img/dev/android.png",
+            "store":"https://play.google.com/store/apps/details?id=org.ohmage.app",
+            "details":"Native android apk library for ohmage 2.x. Written in java",
+            "tags": ["java", "android", "collection"]
+        },
     	{
-    		"title":"ohmage-mwf", 
-    		"url":"https://mobilizelabs.org", 
+    		"title":"ohmage MWF", 
+    		"github":"https://mobilizelabs.org",
+            "sandbox":"https://edu.ohmage.org/#survey",
+            "image":"/img/dev/survey.png",
+            "store":"https://itunes.apple.com/us/app/ohmage-mwf/id578211681?mt=8&uo=4",
     		"details":"HTML5 and javascript-based data collection tool which is built for iOS and Android with phonegap, but can also be run from a browser.",
             "tags": ["html5", "javascript", "jquery", "phonegap", "android", "iOS", "browser"]
     	},
     	{
     		"title":"Campaign Monitor",
-    		"url":"https://github.com/mobilizingcs/campaign_monitor",
+    		"github":"https://github.com/mobilizingcs/campaign_monitor",
+            "sandbox":"https://edu.ohmage.org/#monitor",
+            "image":"/img/dev/monitoring.png",
     		"details":"Campaign progress tracking tool written with HTML5, javascript and dc.js/d3. Helps project coordinators track the data collection of their participants",
-            "tags": ["html5", "javascript", "jquery", "d3.js", "dc.js", "viz", "browser"]
+            "tags": ["html5", "javascript", "jquery", "d3.js", "dc.js", "viz", "browser", "management"]
     	},
     	{
     		"title":"Interactive Dashboard",
-    		"url":"https://github.com/mobilizingcs/dashboard",
+    		"github":"https://github.com/mobilizingcs/dashboard",
+            "sandbox":"https://edu.ohmage.org/#dashboard",
+            "image":"/img/dev/dashboard.png",
     		"details":"An interactive dashboard written in HTML5, javascript and dc.js/d3 which incorporates the overview first; zoom and filter; details on-demand design pattern.",
             "tags": ["html5", "javascript", "jquery", "d3.js", "dc.js", "viz", "browser"]
     	},
     	{
     		"title":"Plot App",
-    		"url":"https://github.com/mobilizingcs/plotbuilder",
+    		"github":"https://github.com/mobilizingcs/plotbuilder",
+            "sandbox":"https://edu.ohmage.org/#plotapp",
+            "image":"/img/dev/plotapp.png",
     		"details":"R-based data exploration tool written in HTML5, javascript and uses the opencpu server for data processing. Allows for complex data analysis without requiring technical expertise. Requires opencpu.",
             "tags": ["html5", "javascript", "jquery", "opencpu", "viz", "browser"]
     	},
     	{
-    		"title":"Management: Class Setup",
-    		"url":"https://lausd.mobilizingcs.org/teacher",
-    		"details":"Class creation tool. Catered toward the Mobilize/LAUSD use-case, but enables easy class creation for all."
+    		"title":"Class Setup",
+    		"github":"https://github.com/mobilizingcs/teacher",
+            "sandbox":"https://edu.ohmage.org/#teacher",
+            "image":"/img/dev/classsetup.png",
+    		"details":"Class creation tool in HTML5 and javascript. Catered toward the Mobilize/LAUSD use-case, but enables easy class creation for all.",
+            "tags": ["html5", "javascript", "jquery", "management", "browser"]
     	},
     	{
-    		"title":"Management: Campaign Authoring",
-    		"url":"https://lausd.mobilizingcs.org/authoring",
-    		"details":"Interactive campaign creation. Allows project coordinators to quickly define campaigns, which as the container for surveys, are the cornerstone of the ohmage system."
+    		"title":"Campaign Authoring",
+    		"github":"https://github.com/mobilizingcs/campaignAuthoringTool",
+            "sandbox":"https://edu.ohmage.org/#authoring",
+            "image":"/img/dev/authoring.png",
+    		"details":"Interactive campaign creation in HTML5 and javascript. Allows project coordinators to quickly define campaigns, which as the container for surveys, are the cornerstone of the ohmage system.",
+            "tags": ["html5", "javascript", "jquery", "management", "browser"]
     	},
     	{
-    		"title":"Management: GWT Web frontend",
-    		"url":"https://lausd.mobilizingcs.org/web",
-    		"details":"The classic ohmage 2.x frontend. Provides the ability for users to view history of responses as well as lists of classes and campaigns to which they belong. Additionally contains some admin features for those with the admin role."
+    		"title":"GWT Web frontend",
+    		"github":"https://github.com/ohmage/gwt-front-end",
+            "sandbox":"https://edu.ohmage.org/#web",
+            "image":"/img/dev/web.png",
+    		"details":"The classic ohmage 2.x frontend written with Google Web Toolkit. Provides the ability for users to view history of responses as well as lists of classes and campaigns to which they belong. Additionally contains some admin features for those with the admin role.",
+            "tags": ["java", "javascript", "gwt", "management", "browser"]
     	}
     ]
 }

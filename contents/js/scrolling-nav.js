@@ -9,6 +9,7 @@ $(window).scroll(function() {
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    $('[data-toggle="tooltip"]').tooltip()
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         if($($anchor.attr('data-target')).length > 0) {
@@ -19,3 +20,5 @@ $(function() {
         }
     });
 });
+
+

@@ -2,6 +2,7 @@ doctype html(lang='en')
 head
 include ./includes/head.jade
 include ./mixins/list.jade
+include ./mixins/components.jade
 
 body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
   include ./includes/navbar.jade
@@ -25,7 +26,7 @@ body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
             | ) and take a look at some code!
 
   //  Docs Section
-  section#docs.overview-section
+  section#api.overview-section
     .container
       .row
         .col-lg-12
@@ -37,6 +38,17 @@ body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
           br
           a(target="_blank" href="https://github.com/ohmage/server/wiki/APIs-for-2.x-Top-Level-Entities")
            button(type="button" class="btn btn-primary btn-lg") Head to the docs!
+
+  //  Components Section
+  section#components.overview-section
+    .container
+      .row
+        .col-lg-12
+          h1 Components
+          br
+      .row
+        .col-lg-12
+         +components("components.json")
 
 
 include ./includes/foot.jade

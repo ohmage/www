@@ -1,0 +1,25 @@
+mixin components(data)
+ - var components = contents[data].metadata.items
+  each item, index in components
+    if (index % 4 == 0)
+        .row.form-group
+            each item2, index2 in components.slice(index, index+4)
+              - var current = components[index+index2]
+                .col-xs-6.col-md-3
+                  .panel.panel-default
+                    .panel-image
+                     img.panel-image-preview(src= current.image)
+                     label(for="toggle-#{index+index2}")
+                    input(id="#toggle-#{index+index2}" checked type="checkbox").panel-image-toggle
+                    .panel-body
+                      h4= current.title
+                      p= current.details
+                    .panel-footer.text-center
+                      a(href= current.github target="_blank" data-toggle="tooltip" data-placement="top" title="Fork on github")
+                        span.fa.fa-github 
+                      if current.store
+                        a(href= current.store target="_blank" data-toggle="tooltip" data-placement="top" title="Download in the app store")
+                         span.fa.fa-mobile 
+                      if current.sandbox
+                        a(href= current.sandbox target="_blank" data-toggle="tooltip" data-placement="top" title="Preview in sandbox")
+                         span.fa.fa-share

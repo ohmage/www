@@ -15,8 +15,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
         li.hidden
           a.page-scroll(href='#page-top')               
         li.dropdown
-          a.dropdown-toggle(data-toggle="dropdown" role="button" aria-expanded="false") Overview
-           span.caret
+          a(role="button" aria-expanded="false") Overview
           ul.dropdown-menu(role="menu")
             li
               a.page-scroll(href='/index.html#questions' data-target='#questions') Create Survey
@@ -27,8 +26,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
             li
               a.page-scroll(href='/index.html#data' data-target='#data') Visualize Data
         li.dropdown
-          a.dropdown-toggle(data-toggle="dropdown" role="button" aria-expanded="false") Research
-           span.caret
+          a(role="button" aria-expanded="false") Research
           ul.dropdown-menu(role="menu")
             li
               a.page-scroll(href='/research.html#studies' data-target='#studies') Studies
@@ -37,7 +35,13 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
         li
           a(href="/admin.html") Self-Host
         li
-          a(href="/dev.html") Develop
+        li.dropdown
+          a(role="button" aria-expanded="false") Develop
+          ul.dropdown-menu(role="menu")
+            li
+              a.page-scroll(href='/dev.html#api' data-target='#api') API Docs
+            li
+              a.page-scroll(href='/dev.html#components' data-target='#components') Components
 
 
       ul.nav.navbar-nav.navbar-right
