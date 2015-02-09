@@ -15,7 +15,7 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
         li.hidden
           a.page-scroll(href='#page-top')               
         li.dropdown
-          a(role="button" aria-expanded="false") Overview
+          a(href="/index.html" role="button" aria-expanded="false") Overview
           ul.dropdown-menu(role="menu")
             li
               a.page-scroll(href='/index.html#questions' data-target='#questions') Create Survey
@@ -36,8 +36,10 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
           a(href="/admin.html") Self-Host
         li
         li.dropdown
-          a(role="button" aria-expanded="false") Develop
+          a(href="/dev.html#dev" data-target="#dev" role="button" aria-expanded="false") Develop
           ul.dropdown-menu(role="menu")
+            li.hidden
+              a(href="#dev")
             li
               a.page-scroll(href='/dev.html#api' data-target='#api') API Docs
             li
