@@ -70,7 +70,7 @@
     		"github":"https://github.com/ohmage/gwt-front-end",
             "sandbox":"https://edu.ohmage.org/#web",
             "image":"/img/dev/web.png",
-    		"details":"The classic ohmage 2.x frontend written with Google Web Toolkit. Provides the ability for users to view history of responses as well as lists of classes and campaigns to which they belong. Additionally contains some admin features for those with the admin role.",
+    		"details":"The classic ohmage 2.x frontend written with Google Web Toolkit. Provides the ability for users to view history of responses as well as lists of classes and campaigns to which they belong.",
             "tags": ["java", "javascript", "gwt", "management", "browser"]
     	}
     ]
