@@ -20,7 +20,6 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
           br                
           p.lead an open data collection platform.
           br
-          br
       .row
         .col-md-3.col-xs-6
           a.page-scroll(href="#questions" data-target="#questions")
@@ -62,26 +61,10 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
       .row
         .col-md-6.col-md-offset-3
          .carousel.slide#questions-carousel(data-ride="carousel" data-interval="false")
-           ol.carousel-indicators
-             li(data-slide-to="0" data-target="#questions-carousel").active
-             li(data-slide-to="1" data-target="#questions-carousel")
-             li(data-slide-to="2" data-target="#questions-carousel")
-             li(data-slide-to="3" data-target="#questions-carousel")
            .carousel-inner(role="listbox")
              .item.active
-               img(src="img/questions1.png")
-             .item
-               img(src="img/questions2.png")
-             .item
-               img(src="img/questions3.png")
-             .item
-               img(src="img/questions4.png")
-           a.left.carousel-control(href="#questions-carousel" role="button" data-slide="prev")
-            span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
-            span.sr-only Previous    
-           a.right.carousel-control(href="#questions-carousel" role="button" data-slide="next")
-            span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
-            span.sr-only Next      
+               img(src="img/author03_imac2013_front.png")  
+
 
   // Participants Section
   section#participants.overview-section
@@ -97,11 +80,9 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
       .row
         .col-md-6.col-md-offset-3
          .carousel.slide#participants-carousel(data-ride="carousel" data-interval="false")
-           ol.carousel-indicators
-             li(data-slide-to="0" data-target="#participants-carousel").active
            .carousel-inner(role="listbox")
              .item.active
-               img(src="img/participants1.png")
+               img(src="img/class01_imac2013_front.png")
 
   // Collect Section
   section#collect.overview-section
@@ -115,31 +96,19 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
             | Now that your surveys have launched, your participants can easily view/take your surveys on their android or iOS 
             | device. You can even take a moment and view their collection as they progress!
       .row
-        .col-md-6.col-md-offset-3
+        .col-md-3.col-md-offset-3
          .carousel.slide#collect-carousel(data-ride="carousel" data-interval="false")
-           ol.carousel-indicators
-             li(data-slide-to="0" data-target="#collect-carousel")
-             li(data-slide-to="1" data-target="#collect-carousel")
-             li(data-slide-to="2" data-target="#collect-carousel")
-             li(data-slide-to="3" data-target="#collect-carousel").active
            .carousel-inner(role="listbox")
-             .item
-               img(src="img/collect1.png")
-             .item
-               img(src="img/collect2.png")
-             .item
-               img(src="img/collect3.png")
              .item.active
-               img(src="img/collect4.png")           
-           a.left.carousel-control(href="#collect-carousel" role="button" data-slide="prev")
-            span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
-            span.sr-only Previous    
-           a.right.carousel-control(href="#collect-carousel" role="button" data-slide="next")
-            span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
-            span.sr-only Next  
+               img(src="img/survey9_nexus4_portrait.png")      
+        .col-md-3
+         .carousel.slide#collect2-carousel(data-ride="carousel" data-interval="false")
+           .carousel-inner(role="listbox")
+             .item.active
+               img(src="img/survey3_iphone_white_portrait.png")   
 
   // Questions Section
-  section#data.overview-section
+  section#data.overview2-section
     .container
       .row
         .col-lg-12
@@ -153,23 +122,9 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
       .row
         .col-md-6.col-md-offset-3
          .carousel.slide#data-carousel(data-ride="carousel" data-interval="false")
-           ol.carousel-indicators
-             li(data-slide-to="0" data-target="#data-carousel").active
-             li(data-slide-to="1" data-target="#data-carousel")
-             li(data-slide-to="2" data-target="#data-carousel")
            .carousel-inner(role="listbox")
              .item.active
-               img(src="img/data1.png")
-             .item
-               img(src="img/data2.png")
-             .item
-               img(src="img/data3.png")
-           a.left.carousel-control(href="#data-carousel" role="button" data-slide="prev")
-            span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
-            span.sr-only Previous    
-           a.right.carousel-control(href="#data-carousel" role="button" data-slide="next")
-            span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
-            span.sr-only Next
+               img(src="img/viz02_imac2013_front.png")
 
   // Getting Started Section
   section#started.overview-section
@@ -194,6 +149,33 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
        h1 Contact Us
     .row
      .col-lg-12
-       p some way to contact us
+       p.lead If you need some help, feel free to contact us via e-mail, support@ohmage.org. ohmage is proud to have a wide-ranging list of
+         |  both past and present contributors.  The full list is below!
+    .row
+     .col-lg-12(style="text-align:left;")
+        li
+          h4 Technology Co-PIs
+          p Deborah Estrin, Mark Hansen, Nithya Ramanathan, Joshua Selsky, Hongsuda Tangmunarunkit, Rose Rocchio, Ed Sakabu
+        li
+          h4 Application/Domain Expert Faculty/PIs (Health Science)
+          p Robert Bilder, Jacqueline Casillas, Scott Comulada, Patricia Ganz, Mary Jane Rotheram-Borus, Ida Sim (UCSF), Fred Sabb, Dallas Swendeman, Michael Swiernik
+        li 
+          h4 Staff
+          p Betta Dawson, John Jenkins, Cameron Ketcham, Steve Nolen, Vinh Pham, Catherine Trance, Wren Reynolds
+        li
+          h4 Graduate Students
+          p Faisal Alquaddoomi, Hossein Falaki, Brent Longstaff, Andy Hsieh, Jinha Khang, Donnie Kim, Min Mun, Katie Shilton, Eric Wang
+        li
+          h4 Sponsors and Partners/Collaborators
+           h5 Cornell
+           p Cornell Tech, WMC CHiP
+           h5 UCLA
+           p CENS, GCFC, CHIPTS, Health Sciences, JCCC, Statistics, Office of Information Technology
+           h5 Federal Funding
+           p NSF STC (NSF Award #0962919) and CISE (Cooperative Agreement #CCF-0120778), NIH
+           h5 Corporate Funding
+           p Google, Intel iSTC; MSR, Nokia, T-Mobile
+           h5 Foundations/NGOs
+           p RWJF, CHCF, CRA
 
 include ./includes/foot.jade
