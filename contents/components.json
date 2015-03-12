@@ -11,7 +11,7 @@
         {
             "title":"Native Android app",
             "github":"https://github.com/ohmage/android-lib",
-            "image":"/img/dev/android.png",
+            "image":"img/dev/android.png",
             "store":"https://play.google.com/store/apps/details?id=org.ohmage.app",
             "details":"Native android apk library for ohmage 2.x. Written in java",
             "tags": ["java", "android", "collection"]
