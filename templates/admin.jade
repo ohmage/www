@@ -20,6 +20,93 @@ body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
             | if you project plans are lofty or you'd just like the stability of hosting ohmage on 
             | your own you can get it up and running in minutes on a linux server in your datacenter 
             | or in the cloud!
+      br
+      br
+      .row
+        .col-md-3.col-sm-6.col-xs-6
+          a.page-scroll.thumbnail(href="#vagrant" data-target="#vagrant" style="border:0px;")
+            img(src="img/vagrant.png")
+          h2 Vagrant
+        .col-md-3.col-sm-6.col-xs-6
+          a.page-scroll.thumbnail(href="#apt" data-target="#apt" style="border:0px;")
+            img(src="img/apt.png")
+          h2 apt-get
+        .col-md-3.col-sm-6.col-xs-6
+          a.page-scroll.thumbnail(href="#chef" data-target="#chef" style="border:0px;")
+            img(src="img/chef.png")
+          h2 Chef (beta)
+        .col-md-3.col-sm-6.col-xs-6
+          a.page-scroll.thumbnail(href="#instructions" data-target="#instructions" style="border:0px;")
+            img(src="img/instructions.png")
+          h2 Instructions
+
+  //  Vagrant Section
+  section#vagrant.overview-section
+    .container
+      .row
+        .col-lg-12
+          h1 Vagrant
+      .row
+        .col-lg-12
+          p.lead
+            | A super fast way to get an ohmage environment for testing! Install vagrant, grab this box and just type 'vagrant up'. 
+            | This is extremely suitable for a fast testing/development environment.
+          br
+          a(target="_blank" href="https://github.com/ohmage/vagrant-ohmage")
+           button(type="button" class="btn btn-primary btn-lg") Get vagrant-ohmage!
+
+  //  Chef Section
+  section#chef.overview-section
+    .container
+      .row
+        .col-lg-12
+          h1 Chef (beta)
+      .row
+        .col-lg-12
+          p.lead
+            | If you're a fan of infrastructure automation, this method is probably for you. Please note that at this time
+            | this method is still heavily in development. The project maintainer would love to be contacted with questions,
+            | comments or requests to replicate this process with other infrastructure automation tools! 
+          br
+          a(target="_blank" href="https://github.com/stevenolen/chef-ohmage")
+           button(type="button" class="btn btn-primary btn-lg") Github project page
+
+  //  Deb packages Section
+  section#apt.overview-section
+    .container
+      .row
+        .col-lg-12
+          h1 Ubuntu/Debian packages
+      .row
+        .col-lg-12
+          p.lead
+            a(target="_blank" href="https://jeroenooms.github.io/") Jeroen Ooms
+            |  has been nice enough to provide us apt packages to use for installation.  
+            | The commands below are all you need to get started on a debian/ubuntu system.
+          br
+
+          pre(style="text-align:left;")
+            | sudo apt-get install python-software-properties
+            | sudo add-apt-repository ppa:opencpu/ohmage-2.16
+            | sudo apt-get update
+            | sudo apt-get install ohmage-server
+          a(target="_blank" href="ohmage-2.16-apt.pdf")
+           button(type="button" class="btn btn-primary btn-lg") Package Documentation
+
+
+  //  Instructions Section
+  section#instructions.overview-section
+    .container
+      .row
+        .col-lg-12
+          h1 Instructions
+      .row
+        .col-lg-12
+          p.lead
+            | If you'd prefer to install our packages on your own, feel free! Below are the basic steps/dependencies you'll need to resolve for ohmage server to run!
+          br
+      .row
+        .col-lg-12(style="text-align:left;")
           p
             | ohmage needs only java, tomcat and mysql to work! We've done the majority of our testing/support 
             | on Ubuntu LTS releases (12.04 and 14.04) though, so you may want to start there.  If you'd like 
@@ -33,7 +120,7 @@ body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
             li create a simple /etc/ohmage.conf file with this db information
             li restart tomcat
           p
-            | Now, it's likely you'll want to add some/all of the frontend clients you've seen on display above.  
+            | Now, it's likely you'll want to add some/all of the frontend clients you've seen on this site.  
             | Take a look at the projects to see if they need to be compiled and start serving the static pages 
             | with your favorite web server (we really like nginx, for obvious reasons)! Note that these projects 
             | may expect ohmage to be running at /app.

@@ -41,8 +41,19 @@ nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
               a.page-scroll(href='dev.html#api' data-target='#api') API Docs
             li
               a.page-scroll(href='dev.html#components' data-target='#components') Components
-        li
-          a(href="admin.html") Host
+        li.dropdown
+          a(href="admin.html#admin" data-target="#admin" role="button" aria-expanded="false") Host It
+          ul.dropdown-menu(role="menu")
+            li.hidden
+              a(href="#admin")
+            li
+              a.page-scroll(href='admin.html#vagrant' data-target='#vagrant') Vagrant
+            li
+              a.page-scroll(href='admin.html#apt' data-target='#apt') apt-get
+            li
+              a.page-scroll(href='admin.html#chef' data-target='#chef') Chef (beta)
+            li
+              a.page-scroll(href='admin.html#instructions' data-target='#instructions') manual
         li
           a.page-scroll(href='index.html#about' data-target='#about') About Us
 
