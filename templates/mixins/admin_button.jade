@@ -1,0 +1,5 @@
+mixin admin_button(href, title)
+  .col-md-3.col-sm-6.col-xs-6
+    a.page-scroll.thumbnail(href="##{href}" data-target="##{href}" style="border:0px;")
+      img(src="img/#{href}.png")
+    h2= title

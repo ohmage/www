@@ -1,7 +1,7 @@
 doctype html(lang='en')
 head
 include ./includes/head.jade
-include ./mixins/list.jade
+include ./mixins/admin_button.jade
 
 body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
   include ./includes/navbar.jade
@@ -23,22 +23,10 @@ body#page-top2(data-spy='scroll', data-target='.navbar-fixed-top')
       br
       br
       .row
-        .col-md-3.col-sm-6.col-xs-6
-          a.page-scroll.thumbnail(href="#vagrant" data-target="#vagrant" style="border:0px;")
-            img(src="img/vagrant.png")
-          h2 Vagrant
-        .col-md-3.col-sm-6.col-xs-6
-          a.page-scroll.thumbnail(href="#apt" data-target="#apt" style="border:0px;")
-            img(src="img/apt.png")
-          h2 apt-get
-        .col-md-3.col-sm-6.col-xs-6
-          a.page-scroll.thumbnail(href="#chef" data-target="#chef" style="border:0px;")
-            img(src="img/chef.png")
-          h2 Chef (beta)
-        .col-md-3.col-sm-6.col-xs-6
-          a.page-scroll.thumbnail(href="#instructions" data-target="#instructions" style="border:0px;")
-            img(src="img/instructions.png")
-          h2 Instructions
+        +admin_button("vagrant", "Vagrant")
+        +admin_button("apt", "apt-get")
+        +admin_button("chef", "Chef (beta)")
+        +admin_button("instructions", "Instructions")
 
   //  Vagrant Section
   section#vagrant.overview-section
