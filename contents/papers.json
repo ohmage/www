@@ -3,13 +3,13 @@
     	{
     		"title":"ohmage: a General and Extensible End-to-End Participatory Sensing Platform", 
     		"authors":"H. Tangmunarunkit, C.K. Hsieh, F. Alquaddoomi, J. Jenkins, J. Kang, C. Ketcham, Z. Khalapyan, B. Longstaff, S. Nolen, J. Ooms, J. Selsky, N. Ramanathan, D. Estrin", 
-    		"url":"http://web.ohmage.org/~hongsudt/pub/ohmage_ucla_140015.pdf", 
-    		"details":"In submission to ACM Transactions on Intelligent Systems and Technology, July-2014. UCLA CS Technical Report 140015."
+    		"url":"/static/TIST-a38-ohmage.pdf", 
+    		"details":"ACM Transactions on Intelligent Systems and Technology (TIST), Volume 6 Issue 3, April 2015."
     	},
      	{
     		"title":"ohmage: An Open Mobile System for Activity and Experience Sampling", 
     		"authors":"Nithya Ramanathan, Faisal Alquaddoomi, Hossein Falaki, Dony George, Cheng-Kang Hsieh, John Jenkins, Cameron Ketcham, Brent Longstaff, Jeroen Ooms, Joshua Selsky, Hongsuda Tangmunarunkit, Deborah Estrin", 
-    		"url":"http://ohmage.org/static/ohmagehome/papers/ohmage-ieee-6th.pdf", 
+    		"url":"/static/ohmage-ieee-6th.pdf", 
     		"details":"In Proceedings of the 6th International Conference on Pervasive Computing Technologies for Healthcare. May 21-24th, 2012."
     	},
      	{

@@ -56,13 +56,13 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
           p.lead
            | Quickly create sets of surveys to ask your participants. The ohmage platform was built for mobile data collection.
            | It supports simple responses like multi-choice, text and numerical as well as responses with images, video and audio.  
-           | Responses can even include passive data like GPS location and time the response was taken.
+           | User responses can automatically include passive data like the GPS location and time that the responses were taken.
       .row
         .col-md-6.col-md-offset-3
          .carousel.slide#questions-carousel(data-ride="carousel" data-interval="false")
            .carousel-inner(role="listbox")
              .item.active
-               img(src="img/author01_imac2013_front.png")  
+               img(src="img/main/author_imac.png")  
 
 
   // Participants Section
@@ -82,7 +82,7 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
          .carousel.slide#participants-carousel(data-ride="carousel" data-interval="false")
            .carousel-inner(role="listbox")
              .item.active
-               img(src="img/class01_imac2013_front.png")
+               img(src="img/main/class_imac.png")
 
   // Collect Section
   section#collect.overview-section
@@ -102,20 +102,20 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
            .carousel-inner(role="listbox")
              .item.active
                a(href="https://play.google.com/store/apps/details?id=org.ohmage.app")
-                 img(src="img/survey9_nexus4_portrait.png")
+                 img(src="img/main/survey_nexus4.png")
         .col-md-6.col-xs-6
          .carousel.slide#collect2-carousel(data-ride="carousel" data-interval="false")
            .carousel-inner(role="listbox")
              .item.active
                a(href="https://itunes.apple.com/us/app/ohmagex/id980069961?mt=8")
-                 img(src="img/survey3_iphone_white_portrait.png")  
+                 img(src="img/main/survey_iphone.png")  
       .row
         .col-md-6.col-xs-6
           a(href="https://play.google.com/store/apps/details?id=org.ohmage.app")
             img(src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" alt="Android app on Google Play")
         .col-md-6.col-xs-6
           a(href="https://itunes.apple.com/us/app/ohmagex/id980069961?mt=8")
-            img(src="img/app_store.svg" alt="iOS ohmageX app on App Store") 
+            img(src="img/main/app_store.svg" alt="iOS ohmageX app on App Store") 
 
   // Questions Section
   section#data.overview-section
@@ -127,14 +127,14 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
         .col-lg-12
           p.lead
             | You (and your participants) can visualize and analyze the collected data any time.
-            | ohmage provides different interactive tools for you to explore your data. You can also
+            | ohmage provides different interactive tools (i.e. Interactive Dashboard and PlotApp) for you to explore your data. You can also
             | easily export the data for your own statistical analysis.
       .row
         .col-md-6.col-md-offset-3
          .carousel.slide#data-carousel(data-ride="carousel" data-interval="false")
            .carousel-inner(role="listbox")
              .item.active
-               img(src="img/viz03_imac2013_front.png")
+               img(src="img/main/viz_imac.png")
 
   // Getting Started Section
   section#started.getting-started-section
@@ -147,9 +147,10 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
           p.lead
            | If you're ready to get started, create an account on the 
            b free
-           |  sandbox provided by the NSF-funded educational project, 
-           a(href="http://mobilizingcs.org") Mobilize
-           | . Browse around
+           |  sandbox provided by the NSF-funded UCLA-LAUSD  
+           a(href="http://mobilizingcs.org") Mobilize 
+           | project.
+           | Browse around
            | and even participate in existing example projects to see how easy it is!
           br
           a(href="https://sandbox.mobilizingcs.org/#web" target="_blank")
@@ -169,31 +170,32 @@ body#page-top(data-spy='scroll', data-target='.navbar-fixed-top')
     br
     .row
      .col-lg-12(style="text-align:left;")
-        li
-          h4 Technology Co-PIs
-          p Deborah Estrin, Mark Hansen, Rose Rocchio, Ed Sakabu, Josh Selsky, Hongsuda Tangmunarunkit
-        li
-          h4 Application/Domain Expert Faculty/PIs (Health Science)
-          p Robert Bilder, Jacqueline Casillas, Scott Comulada, Patricia Ganz, Mary Jane Rotheram-Borus, Ida Sim (UCSF), Fred Sabb, Dallas Swendeman, Michael Swiernik, Robert Gould
-        li 
-          h4 Staff
-          p Steve Nolen, Jeroen Ooms, Vinh Pham, Wren Ranolds, Cathy Trance
-        li
-          h4 Past Contributors
-          p Faisal Alquaddoomi, Betta Dawson, Hossein Falaki, Valerie Hajdik, Andy Hsieh, John Jenkins, Cameron Ketcham, Zorayr Khalapyan, Jinha Khang, Donnie Kim, Brent Longstaff, Min Mun, Tai Pham, Katie Shilton, Eric Wang
-        li
-          h4 Sponsors and Partners/Collaborators
-            h5 UCLA
-            p CENS, GCFC, CHIPTS, Health Sciences, JCCC, Statistics, Office of Information Technology
-            h5 Cornell
-            p Cornell Tech, WMC CHiP
-            h5 Federal Funding
-            p NSF STC 
-              a(href="http://mobilizingcs.org" target="_blank") Mobilize Project
-              |  (NSF Award #0962919) and CISE (Cooperative Agreement #CCF-0120778), NIH
-            h5 Corporate Funding
-            p Google, Intel iSTC; MSR, Nokia, T-Mobile
-            h5 Foundations/NGOs
-            p RWJF, CHCF, CRA
+        ul
+          li
+            h4 Technology Co-PIs
+            p Deborah Estrin, Mark Hansen, Rose Rocchio, Ed Sakabu, Hongsuda Tangmunarunkit, Joshua Selsky
+          li
+            h4 Application/Domain Expert Faculty/PIs (Health Science)
+            p Robert Bilder, Jacqueline Casillas, Scott Comulada, Patricia Ganz, Mary Jane Rotheram-Borus, Ida Sim (UCSF), Fred Sabb, Dallas Swendeman, Michael Swiernik, Robert Gould
+          li 
+            h4 Staff
+            p Steve Nolen, Jeroen Ooms, Vinh Pham, Wren Ranolds, Cathy Trance
+          li
+            h4 Past Contributors
+            p Faisal Alquaddoomi, Betta Dawson, Hossein Falaki, Valerie Hajdik, Andy Hsieh, John Jenkins, Cameron Ketcham, Zorayr Khalapyan, Jinha Khang, Donnie Kim, Brent Longstaff, Min Mun, Tai Pham, Katie Shilton, Eric Wang
+          li
+            h4 Sponsors and Partners/Collaborators
+              h5 UCLA
+              p CENS, GCFC, CHIPTS, Health Sciences, JCCC, Statistics, Office of Information Technology
+              h5 Cornell
+              p Cornell Tech, WMC CHiP
+              h5 Federal Funding
+              p NSF STC 
+                a(href="http://mobilizingcs.org" target="_blank") Mobilize Project
+                |  (NSF Award #0962919) and CISE (Cooperative Agreement #CCF-0120778), NIH
+              h5 Corporate Funding
+              p Google, Intel iSTC; MSR, Nokia, T-Mobile
+              h5 Foundations/NGOs
+              p RWJF, CHCF, CRA
 
 include ./includes/foot.jade
