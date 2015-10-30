@@ -5,3 +5,17 @@ script(src='js/bootstrap.min.js')
 // Scrolling Nav JavaScript
 script(src='js/jquery.easing.min.js')    
 script(src='js/scrolling-nav.js')
+script.
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.ohmage.org/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+noscript
+  p
+    img(src="//analytics.ohmage.org/piwik.php?idsite=8" style="border:0;" alt="")
